@@ -19,11 +19,11 @@ public class DefenseFenceCore
 	{
 		blockdefense = new DefenseBlock();
 		GameRegistry.registerBlock(blockdefense, "blockDefense");
-		GameRegistry.addRecipe(new ItemStack(DefenseFenceCore.blockdefense),
+		GameRegistry.addRecipe(new ItemStack(DefenseFenceCore.blockdefense,4),
 				"XYX",
 				"YZY",
 				"XYX",
-				'X',new ItemStack(Items.dye, 9, 4),
+				'X',new ItemStack(Items.dye, 1, 4),
 				'Y',Items.glowstone_dust,
 				'Z',Items.redstone
 				);

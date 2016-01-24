@@ -27,7 +27,7 @@ public class DefenseBlock extends Block {
 		super(Material.cactus);
 		setCreativeTab(CreativeTabs.tabDecorations);
 		setBlockName("DefenseBlock");
-		setBlockTextureName("antoniofettuccine:glowstone");
+		setBlockTextureName("antoniofettuccine:defenseblock");
 		setStepSound(Block.soundTypeStone);
 		setTickRandomly(true);
 		setLightLevel(1.0F);
@@ -52,8 +52,8 @@ public class DefenseBlock extends Block {
 @SideOnly(Side.CLIENT)
 public void registerBlockIcons(IIconRegister par1IconRegister)
 {
-    this.TopIcon = par1IconRegister.registerIcon("antoniofettuccine:glowstone");
-    this.SideIcon = par1IconRegister.registerIcon("antoniofettuccine:glowstone");
+    this.TopIcon = par1IconRegister.registerIcon("antoniofettuccine:defenseblock");
+    this.SideIcon = par1IconRegister.registerIcon("antoniofettuccine:defenseblock");
 }
 
 @SideOnly(Side.CLIENT)
